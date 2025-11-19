@@ -1,6 +1,6 @@
 package com.eniso;
 
-import com.eniso.hello_world.service.CalculatorService;
+import com.eniso.helloworld.service.CalculatorService;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 

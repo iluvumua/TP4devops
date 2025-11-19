@@ -5,6 +5,9 @@
  */
 
 import com.eniso.AdditionTest;
+import com.eniso.DivisionTest;
+import com.eniso.MultiplicationTest;
+import com.eniso.SubstractionTest;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
@@ -17,6 +20,9 @@ public class TestRunner {
 
     public static void main(String[] args) {
         getTestResult(AdditionTest.class);
+        getTestResult(MultiplicationTest.class);
+        getTestResult(DivisionTest.class);
+        getTestResult(SubstractionTest.class);
         
     }
     
